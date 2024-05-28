@@ -56,6 +56,29 @@
     // });
     console.log(fullnames);
 
+    // Array.prototype.sort()
+    // 3. Sot the inventors by birthdate, oldest to youngest
+    const ordered = investors.sort((a, b) => (a.year > b.year ? 1: -1));
+    // const ordered = investors.sort((a, b) => a.year > b.year); // in this case can use only '-' to sort ascending order
+    // const ordered = investors.sort(function(a, b) {
+    //    if (a.year > b.year) {
+    //        return 1;
+    //    } else {
+    //        return -1;
+    //    }
+    // });
+    console.table(ordered);
+
+    // Array.prototype.reduce()
+    // 4. How many years did all the investors live ?
+    const totalYears = investors.reduce(total, inventor) => {
+        return total += inventor.passed - inventor.year
+    }, 0);
+    console.log(totalYears);
+
+    
+
+
 
     </script>
     
