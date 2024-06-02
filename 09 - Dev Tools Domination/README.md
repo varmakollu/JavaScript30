@@ -12,7 +12,7 @@ view demo [here](https://amelieyeh.github.io/JS30/09-Dev%20Tools%20Domination/in
 
 Making a break point to see what's going on to the element.
 
-![](images/image1.png)
+![](images/1.png)
 
 ### Dominating the `console` tricks
 
@@ -37,7 +37,7 @@ Making a break point to see what's going on to the element.
     - `%c`: for styled
       `console.log("I am not just a log, I am %c CONSOLE DOT LOG!!", "font-size: 18px;color: blue;background-color: yellow");`
 
-![](images/image2.png)
+![](images/2.png)
 
 - defaults of `console.log`
   - `console.warn` for warning message
@@ -52,7 +52,7 @@ Making a break point to see what's going on to the element.
 
     `console.info("← an info sign %c Practice makes perfect! ", "background-color: #274ed0;color: #fff");`
 
-![](images/image3.png)
+![](images/3.png)
 
 - Testing with `assert()`
   - nothing returns if true
@@ -71,7 +71,7 @@ Making a break point to see what's going on to the element.
     console.assert(p.innerHTML.match('Break'), "There is no \'Break\' in <p> here, try \'BREAK\'");
     ```
 
-![](images/image4.png)
+![](images/4.png)
 
 - Viewing DOM elements
   - `document.querySelector()` an element first
@@ -83,7 +83,7 @@ Making a break point to see what's going on to the element.
 
     `console.dir(p);`
 
-![](images/image5.png)
+![](images/5.png)
 
 - Log out something tidy with console.table()
   - simply `console.table()` all out
@@ -94,7 +94,7 @@ Making a break point to see what's going on to the element.
 
     `console.table(dogs, ['age']);`
 
-![](images/image6.png)
+![](images/6.png)
 
 - Grouping together
 
@@ -112,7 +112,7 @@ Making a break point to see what's going on to the element.
   });
   ```
 
-![](images/image7.png)
+![](images/7.png)
 
 - Counting things
 
@@ -128,7 +128,7 @@ counts only contents inside of `console.count()`
   console.count("chocolate");
   ```
 
-![](images/image8.png)
+![](images/8.png)
 
 - Processing times
 
@@ -144,7 +144,7 @@ fetch('http://api.github.com/users/varmakollu')
   });
 ```
 
-![](images/image9.png)
+![](images/9.png)
 
 ### Clearing the console panel
 
@@ -153,4 +153,4 @@ There are two ways to clear the console panel:
 - `console.clear();`
 - hit `Ctrl + L` (in Chrome)
 
-![](images/image10.png)
+![](images/10.png)
