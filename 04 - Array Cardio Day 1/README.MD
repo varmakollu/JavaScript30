@@ -2,7 +2,7 @@
 
 # 04 - Array cardio day 1
 
-![](images/04_00.png)
+![](images/image.png)
 
 view demo [here](https://amelieyeh.github.io/JS30/04-Array%20cardio%20day%201/index.html)
 
