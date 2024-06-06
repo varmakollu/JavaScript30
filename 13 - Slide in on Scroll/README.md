@@ -6,7 +6,7 @@
 
 ![](images/0.png)
 
-view demo [here](https://amelieyeh.github.io/JS30/13-Slide%20in%20on%20Scroll/index.html)
+view demo [here](https://varmakollu.github.io/JavaScript30/13%20-%20Slide%20in%20on%20Scroll/index.html)
 
 ### Debouncing
 
