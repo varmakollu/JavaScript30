@@ -8,30 +8,28 @@ let lastChecked;
 // function handleCheck(e) {
 //    console.log(e);
 //    check if they have shift key down
-    
 //    and check that they are checking it
-//    let inBetween = false;
-//    if(e.shiftKey && this.checked) {
-//        go head and do what we please
-//         loop over every single checkbox
-
-//        checkboxes.forEach(checkbox => {
-//            if(checkbox === this || checkbox === lastChecked) {
-//                inBetween = !inBetween;
-//                console.log('Starting to check them inbetween');
-//                console.log(`%c inBetween state is: ${inBetween}`, "background-color:blue;color:#fff;");
-//            }
-//            if(inBetween) {
-//                checkbox.checked = true;
-//                console.log(`%c inBetween state is: ${inBetween}`, "background-color:#eeaf1e;color:#fff;");`)
-//            }
-//            console.log(`checked:${checkbox.checked} and inBetween: ${inBetween}`);
-//        });
-//    }
-
-//    lastChecked = this;
-
-//}
+//   let inBetween = false;
+//   if(e.shiftKey && this.checked) {
+//      go ahead and do what we please
+//      loop over every single checkbox
+//     checkboxes.forEach(checkbox => {
+//       if(checkbox === this || checkbox === lastChecked) {
+//         inBetween = !inBetween;
+//         console.log('Starting to check them inbetween');
+//         console.log(`%c inBetween state is: ${inBetween}`, "background-color:blue;color:#fff;");
+//       }
+//
+//       if(inBetween) {
+//         checkbox.checked = true;
+//         console.log(`%c inBetween state is: ${inBetween}`, "background-color:#eeaf1e;color:#fff;");
+//       }
+//       console.log(`checked:${checkbox.checked} and inBetween: ${inBetween}`);
+//     });
+//   }
+//
+//   lastChecked = this;
+// }
 
 // fixup one
 // fixup-step-2: use `array.indexOf()` to get the index of seleted inputs in the array to define the range (with the start point like `checkbox === lastChecked` and end point like `checkbox === this`)
@@ -61,3 +59,4 @@ function handleCheck(e) {
   lastChecked = this;
 }
 checkboxes.forEach(checkbox => checkbox.addEventListener( 'click', handleCheck));  // `click` also fire when use keyboard
+
