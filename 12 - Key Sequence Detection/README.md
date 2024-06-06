@@ -6,7 +6,7 @@
 
 ![](images/0.png)
 
-view demo [here](https://amelieyeh.github.io/JS30/12-Key%20Sequence%20Detection/index.html)
+view demo [here](https://varmakollu.github.io/JavaScript30/12%20-%20Key%20Sequence%20Detection/index.html)
 
 ### Array.prototype.join()
 

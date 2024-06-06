@@ -4,27 +4,27 @@ const video = document.querySelector('.viewer');
 const progress = document.querySelector('.progress');
 const progressBar = document.querySelector('.progress__filled');
 const toggle = document.querySelector('.toggle');
-const skipButtons = document.querySelector('[data-skip]');
-const ranges = document.querySelector('.player__slider');
+const skipButtons = document.querySelectorAll('[data-skip]');
+const ranges = document.querySelectorAll('.player__slider');
 
 // built out functions
 function togglePlay() {
-    // `.paused` is the property of `video`, and there is no `.playing` property live on `video`
-    const method = video.paused ? 'play' : 'pause';
-    video[method]();
-    // video[video.paused ? 'play' : 'pause']();
-    // if(video.paused) {
-    //    video.play();
-    //  } else {
-    //  video.pause();
-    // }
+  // `.paused` is the property of `video`, and there is no `.playing` property live on `video`
+  const method = video.paused ? 'play' : 'pause';
+  video[method]();
+  // video[video.paused ? 'play' : 'pause']();
+  // if(video.paused) {
+  //   video.play();
+  // } else {
+  //   video.pause();
+  // }
 }
 
 function updateButton() {
-    // console.log("update the button!");
-    const icon = this.paused ? '►' : '❚ ❚';  // `this` is the `video`
-    toggle.textContent = icon;  // toggle the icon, in this case is change the `textContent` property
-    // console.log({toggle});
+  // console.log("update the button!");
+  const icon = this.paused ? '►' : '❚ ❚';  // `this` is the `video`
+  toggle.textContent = icon;  // toggle the icon, in this case is change the `textContent` property
+  // console.log({toggle});
 }
 
 function skip() {
