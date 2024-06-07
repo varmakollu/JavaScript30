@@ -4,7 +4,7 @@
 
 ![](images/00.png)
 
-view demo [here](https://varmakollu.github.io/JS30/14-JavaScript%20References%20VS%20Copying/index.html)
+view demo [here](https://varmakollu.github.io/JavaScript30/14-JavaScript%20References%20VS%20Copying/index.html)
 
 ### Strings, Numbers and Booleans reference and copy
 
