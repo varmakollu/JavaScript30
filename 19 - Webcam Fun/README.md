@@ -4,7 +4,7 @@
 
 ![](images/00.png)
 
-view demo [here](https://varmakollu.github.io/JavaScript30/19-Webcam%20Fun/index.html)
+view demo [here](https://varmakollu.github.io/JavaScript30/19%20-%20Webcam%20Fun/index.html)
 
 for accessing our webcam which is must be tied to *secure origin* means that a website is `HTTPS`, and `localhost` in our tutorial is also a secure origin. we use `npm` (`npm install` & `npm start`) to run our small server to build the page.
 
@@ -41,7 +41,7 @@ the `.catch` is to handle the error.
 
 check out the HTML page and you will see that the `video`'s `src` is a `blob:http://XXX`. `blob` means a *raw data* being piped in off this webcam right on the page.
 
-![](images/19_01.png)
+![](images/01.png)
 
 ### The `paintToCanavas()` function
 
