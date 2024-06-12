@@ -4,7 +4,7 @@
 
 ![](images/00.png)
 
-view demo [here](https://varmakollu.github.io/JS30/18%20-%20Adding%20Up%20Times%20with%20Reduce/index.html)
+view demo [here](https://varmakollu.github.io/JavaScript30/18%20-%20Adding%20Up%20Times%20with%20Reduce/index.html)
 ![alt text](image.png)
 ### Grabing times
 

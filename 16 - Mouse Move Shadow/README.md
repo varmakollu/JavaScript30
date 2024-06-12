@@ -4,7 +4,7 @@
 
 ![](images/00.png)
 
-view demo [here](https://varmakollu.github.io/JS30/16%20-%20Mouse%20Move%20Shadow/index.html)
+view demo [here](https://varmakollu.github.io/JavaScript30/16%20-%20Mouse%20Move%20Shadow/index.html)
 
 ### Grab elements and hook up mousemve event
 

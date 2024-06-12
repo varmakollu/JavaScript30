@@ -6,7 +6,7 @@
 
 ![](images/00.png)
 
-view demo [here](https://varmakollu.github.io/JS30/15%20-%20LocalStorage%20and%20Event%20Delegation/index.html)
+view demo [here](https://varmakollu.github.io/JavaScript30/15%20-%20LocalStorage%20and%20Event%20Delegation/index.html)
 
 ### Take and load datas with localStorage
 
