@@ -2,9 +2,9 @@
 
 # 22 - Follow Along Links
 
-![](images/22_00.png)
+![](images/00.png)
 
-view demo [here](https://amelieyeh.github.io/JS30/22-Follow%20Along%20Link%20Highlighter/index.html)
+view demo [here](https://varmakollu.github.io/JavaScript30/2220-%20Follow%20Along%20Link%20Highlighter/index.html)
 
 ### To `createElement()` and `append()` it on to the DOM
 
@@ -49,11 +49,11 @@ left: linkCoords.left + window.scrollX
 - `this`: every single `<a>` element itself
 - to `console.log(linkCoords);` will get
 
-![](images/22_01.png)
+![](images/01.png)
 
 we can see what we have here
 
-![](images/22_02.png)
+![](images/02.png)
 
 ### Set a initial start corrdinates
 
