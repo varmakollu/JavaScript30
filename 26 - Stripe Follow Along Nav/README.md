@@ -2,7 +2,7 @@
 
 # 26 - Stripe Follow Along Dropdown
 
-![](images/00.png)
+![](images/0.png)
 
 view demo [here](https://varmakollu.github.io/JavaScript30/2620-%20Stripe%20Follow%20Along%20Nav/index.html)
 
