@@ -4,7 +4,7 @@
 
 ![](images/0.png)
 
-view demo [here](https://varmakollu.github.io/JavaScript30/2620-%20Stripe%20Follow%20Along%20Nav/index.html)
+view demo [here](https://varmakollu.github.io/JavaScript30/27%20-%20Click%20and%20Drag/index.html)
 
 ### Define variables we need
 
