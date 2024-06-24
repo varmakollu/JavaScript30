@@ -1,17 +1,13 @@
 html {
   box-sizing: border-box;
   background-color: #23b0d0;
-  font-family: 'helvetica neue';
+  font-family:'helvetica neue';
   font-size: 20px;
   font-weight: 200;
 }
 
 body {
   margin: 0;
-  padding: 0;
-  width: 210mm;  /* A4 width */
-  height: 297mm; /* A4 height */
-  overflow: hidden; /* Prevents scrollbar from appearing */
 }
 
 *, *:before, *:after {
@@ -23,33 +19,37 @@ h1 {
 }
 
 .site-wrap {
-  width: 100%;
-  height: 100%;
-  background: white;
-  padding: 20mm;
+  max-width: 700px;
+  margin: 100px auto;
+  background:white;
+  padding:40px;
   text-align: justify;
 }
 
-img {
-  width: 100%;
-  height: auto; /* maintain aspect ratio */
-  max-height: 100%; /* ensure the image does not exceed the container's height */
-  object-fit: cover; /* crop the image to fit within its container */
+.align-left {
+  float:left;
+  margin-right:20px;
 }
 
-.align-left, .align-right {
-  width: 100%;
-  margin: 20px 0;
-  display: block;
+.align-right {
+  float:right;
+  margin-left:20px;
 }
 
 .slide-in {
-  width: 100%;
-  opacity: 0;
-  transition: all 0.5s;
+  opacity:0;
+  transition:all .5s;
+}
+
+.align-left.slide-in {
+  transform:translateX(-30%) scale(0.95);
+}
+
+.align-right.slide-in {
+  transform:translateX(30%) scale(0.95);
 }
 
 .slide-in.active {
-  opacity: 1;
-  transform: translateX(0%) scale(1);
+  opacity:1;
+  transform:translateX(0%) scale(1);
 }
