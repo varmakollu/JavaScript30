@@ -30,6 +30,13 @@ h1 {
   text-align: justify;
 }
 
+img {
+  width: 100%;
+  height: auto; /* maintain aspect ratio */
+  max-height: 100%; /* ensure the image does not exceed the container's height */
+  object-fit: cover; /* crop the image to fit within its container */
+}
+
 .align-left, .align-right {
   width: 100%;
   margin: 20px 0;
